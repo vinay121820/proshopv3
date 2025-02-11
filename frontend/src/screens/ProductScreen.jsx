@@ -14,6 +14,7 @@ import React from 'react'
 import Meta from '../components/Meta'
 
 
+
 const ProductScreen = () => {
   
     const { id: productId } = useParams();

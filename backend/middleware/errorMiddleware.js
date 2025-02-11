@@ -10,10 +10,7 @@ const notFound = (req, res, next) => {
 
 
 
-    if (err.name==='CastError' && err.kind ==='ObjectId'){
-        message=`Resource not found`;
-        statusCode=404;
-    }
+   
   
     // NOTE: checking for invalid ObjectId moved to it's own middleware
     // See README for further info.

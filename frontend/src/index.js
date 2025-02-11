@@ -3,7 +3,7 @@ import {createBrowserRouter,createRoutesFromElements,Route,RouterProvider} from 
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {PayPalScriptProvider} from "@paypal/react-paypal-js";
-import {HelmetProvider} from 'react-helmet-async'
+import {HelmetProvider} from "react-helmet-async";
 import store from './store';
 import {Provider} from 'react-redux';
 import './assets/styles/bootstrap.custom.css'
