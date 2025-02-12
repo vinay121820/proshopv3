@@ -115,7 +115,6 @@ const ProductEditScreen = () => {
                 onChange={(e) => setPrice(e.target.value)}
               ></Form.Control>
             </Form.Group>
-
             <Form.Group controlId='image'>
               <Form.Label>Image</Form.Label>
               <Form.Control
